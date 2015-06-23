@@ -5,10 +5,9 @@ class SessionsController < ApplicationController
 
     if user
       session[:user_id] = user.id
-      # redirect_to dashboard_path
+      redirect_to matches_path
     else
-      redirect_to static_pages_home_path
-      # because this isn't the root path
+      redirect_to root_path
     end
   end
 end

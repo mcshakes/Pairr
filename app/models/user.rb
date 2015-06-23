@@ -6,5 +6,6 @@ class User < ActiveRecord::Base
     user.image_url = data.info.image_url
 
     user.save
+    user
   end
 end

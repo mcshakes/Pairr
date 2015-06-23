@@ -2,8 +2,9 @@ class UsersController < ApplicationController
 
   def show
     if additional_info_added?
-      # if the person has the info needed to move on, send to dashboard/matches
+      # if the person has the info needed to move on, send to matches
       # matches = Match.all will be an index of all possible matches
+      redirect_to matches_path
     else
       redirect_to edit_user_path
     end
