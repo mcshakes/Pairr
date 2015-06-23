@@ -3,7 +3,22 @@
 
 <h3>About Me:</h3>
 <%= form_for @user do |f| %>
-  <%= f.label :details %>
-  <%= f.text_field :details %>
+  <%= f.label :details %> <br>
+  <%= f.text_area :details, rows: 10, cols: 40 %> <br>
   <%= f.submit "That's what I'm about!" %>
 <% end %>
+
+<h3>Your Preferred Languages</h3>
+
+<%= check_box_tag(:javascript) %>
+<%= label_tag(:javascript, "JavaScript") %>
+<%= check_box_tag(:ruby) %>
+<%= label_tag(:ruby, "Ruby") %>
+<%= check_box_tag(:java) %>
+<%= label_tag(:java, "Java") %>
+<%= check_box_tag(:css) %>
+<%= label_tag(:css, "CSS") %>
+<%= check_box_tag(:php) %>
+<%= label_tag(:php, "PHP") %>
+<%= check_box_tag(:python) %>
+<%= label_tag(:python, "Python") %>
