@@ -2,8 +2,6 @@ class UsersController < ApplicationController
 
   def show
     if additional_info_added?
-      # if the person has the info needed to move on, send to matches
-      # matches = Match.all will be an index of all possible matches
       redirect_to matches_path
     else
       redirect_to edit_user_path
@@ -17,13 +15,12 @@ class UsersController < ApplicationController
   def update
     @user = current_user
     @user.update(user_params)
-    # redirect_to user_path()
+    redirect_to matches_path
   end
 
   private
 
   def additional_info_added?
-    # current_user.preferred_languages and don't forget below
     current_user.details
   end
 

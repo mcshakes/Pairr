@@ -1,0 +1,9 @@
+<h1>User Information</h1>
+<h2>Add details to appear more enticing to other Programmers</h2>
+
+<h3>About Me:</h3>
+<%= form_for @user do |f| %>
+  <%= f.label :details %>
+  <%= f.text_field :details %>
+  <%= f.submit "That's what I'm about!" %>
+<% end %>
