@@ -34,8 +34,7 @@ class NewUserMustSignInTest < ActionDispatch::IntegrationTest
     # assert_equal edit_user_path(user),current_path
     fill_in "Details", with: "I love programming"
     click_link_or_button "That's what I'm about!"
-    save_and_open_page
-    assert page.has_content? "Welcome fakerbocker"
+    assert page.has_content? "Welcome to your Pair Dashboard fakerbocker"
   end
 
 
