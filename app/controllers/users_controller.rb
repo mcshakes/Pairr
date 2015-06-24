@@ -20,6 +20,14 @@ class UsersController < ApplicationController
 
   private
 
+  def language_add
+    if params["language"].present?
+     params["language"].each do |lang|
+       @user.languages << Language.find_by(name: lang)
+     end
+   end
+  end
+
   def additional_info_added?
     current_user.details
   end
