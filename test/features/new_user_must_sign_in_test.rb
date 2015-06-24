@@ -32,8 +32,9 @@ class NewUserMustSignInTest < ActionDispatch::IntegrationTest
     click_link_or_button "Login with Github"
     assert page.has_content? "User Information"
     # assert_equal edit_user_path(user),current_path
-    # fill_in user["details"]
-    # assert_equal matches_path,current_path
+    fill_in "Details", with: "I love programming"
+    click_link_or_button "That's what I'm about!"
+    assert_equal matches_path,current_path
   end
 
 
