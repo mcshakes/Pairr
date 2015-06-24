@@ -32,6 +32,41 @@ class Seed
     image_url: "https://avatars.githubusercontent.com/u/4818182?v=3",
     details: "i am so alone plz pair with me")
 
+    User.create(
+      nickname: "allisonlarson",
+      id: 7552541,
+      image_url: "https://avatars.githubusercontent.com/u/7552541?v=3",
+      details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+
+    User.create(
+      nickname: "AndyDangerous",
+      id: 2694765,
+      image_url: "https://avatars.githubusercontent.com/u/2694765?v=3",
+      details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+
+    User.create(
+      nickname: "BobGu",
+      id: 4348166,
+      image_url: "https://avatars.githubusercontent.com/u/4348166?v=3",
+      details: "i am so alone plz pair with me")
+
+    User.create(
+      nickname: "chadbrading",
+      id: 6863100,
+      image_url: "https://avatars.githubusercontent.com/u/6863100?v=3",
+      details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+
+    User.create(
+      nickname: "coreyd303",
+      id: 6662565,
+      image_url: "https://avatars.githubusercontent.com/u/6662565?v=3",
+      details: "i am so alone plz pair with me")
+
+    User.create(
+      nickname: "emilyadavis303",
+      id: 7103421,
+      image_url: "https://avatars.githubusercontent.com/u/7103421?v=3",
+      details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
     p "Users created"
   end
@@ -48,83 +83,6 @@ class Seed
   end
 
 
-  # User.create(
-  #   nickname: "allisonlarson",
-  #   id: 7552541,
-  #   image_url: "https://avatars.githubusercontent.com/u/7552541?v=3",
-  #   languages: [
-  #     "JavaScript",
-  #     "Java",
-  #     "Ruby",
-  #     "PHP",
-  #     "Python"
-  #   ],
-  #   details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
-  #
-  # User.create(
-  #   nickname: "AndyDangerous",
-  #   id: 2694765,
-  #   image_url: "https://avatars.githubusercontent.com/u/2694765?v=3",
-  #   languages: [
-  #     "C",
-  #     "CSS",
-  #     "PHP",
-  #     "Python"
-  #   ],
-  #   details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-  #
-  # User.create(
-  #   nickname: "BobGu",
-  #   id: 4348166,
-  #   image_url: "https://avatars.githubusercontent.com/u/4348166?v=3",
-  #   languages: [
-  #     "JavaScript",
-  #     "Java",
-  #     "Ruby",
-  #     "C",
-  #     "CSS",
-  #     "PHP",
-  #     "Python"
-  #   ],
-  #   details: "i am so alone plz pair with me")
-  #
-  # User.create(
-  #   nickname: "chadbrading",
-  #   id: 6863100,
-  #   image_url: "https://avatars.githubusercontent.com/u/6863100?v=3",
-  #   languages: [
-  #     "JavaScript",
-  #     "Java"
-  #   ],
-  #   details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-  #
-  # User.create(
-  #   nickname: "coreyd303",
-  #   id: 6662565,
-  #   image_url: "https://avatars.githubusercontent.com/u/6662565?v=3",
-  #   languages: [
-  #     "Ruby",
-  #     "C",
-  #     "CSS",
-  #     "PHP",
-  #     "Python"
-  #   ],
-  #   details: "i am so alone plz pair with me")
-  #
-  # User.create(
-  #   nickname: "emilyadavis303",
-  #   id: 7103421,
-  #   image_url: "https://avatars.githubusercontent.com/u/7103421?v=3",
-  #   languages: [
-  #     "JavaScript",
-  #     "Java",
-  #     "Ruby",
-  #     "C",
-  #     "CSS",
-  #     "PHP",
-  #     "Python"
-  #   ],
-  #   details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
   #
   # User.create(
   #   nickname: "ericfransen",
