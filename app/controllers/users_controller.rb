@@ -10,6 +10,7 @@ class UsersController < ApplicationController
 
   def edit
     @user = current_user
+    @languages = Language.all
   end
 
   def update
