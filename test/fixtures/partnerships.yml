@@ -1,0 +1,14 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  partner_id: 1
+  create: MyString
+  destroy: MyString
+
+two:
+  user_id: 1
+  partner_id: 1
+  create: MyString
+  destroy: MyString
