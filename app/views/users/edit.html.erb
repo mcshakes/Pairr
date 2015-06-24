@@ -15,21 +15,3 @@
 
   <%= f.submit "That's what I'm about!" %>
 <% end %>
-
-<!--
-<div id="checklist">
-  <h3>Your Preferred Languages</h3>
-  <%= form_tag({:controller => "users", :action => "update"}, method: :get) do %>
-    <%= fields_for :language_ids do |ff| %>
-      <ul>
-        <% @languages.each do |language| %>
-          <li>
-            <%= ff.check_box(language.name, {}, language.id, nil) %>
-            <%= language.name %>
-          </li>
-        <% end %>
-      </ul>
-      <%= ff.submit "Languages You Love" %>
-    <% end %>
-  <% end %>
-</div> -->
