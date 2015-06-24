@@ -1,8 +1,7 @@
 class Partnership < ActiveRecord::Base
   belongs_to :user
   belongs_to :paired, class_name: "User"
-  # as per the video
-
+  
   enum condition: %w(potential reject pending matched)
 
   scope :reject, -> { where(condition: 1) }

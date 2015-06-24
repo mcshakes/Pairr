@@ -29,7 +29,7 @@ class PartnershipsController < ApplicationController
     if @match.save
       @match.condition = "reject"
       @match.save
-      flash[:alert] = "They won't try again hopefully."
+      flash[:alert] = "They won't try to pair with you!."
       redirect_to partner_path(current_user)
     else
       flash[:notice] = "Unable to add Pair."
@@ -45,9 +45,4 @@ class PartnershipsController < ApplicationController
   def new
     @partnership = Partnership.new
   end
-
-  def edit
-  end
-
-
 end
