@@ -16,7 +16,6 @@ class UsersController < ApplicationController
 
   def update
     @user = current_user
-
     if @user.update(user_params)
       language_add
       redirect_to user_path(@user)

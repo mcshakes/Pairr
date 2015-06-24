@@ -8,10 +8,11 @@
 
 
   <h5>Your Preferred Languages</h5>
-  <% @languages.each do |l| %>
-    <%=  %>
-    <%=  %>
+  <% @languages.map do |l| %>
+    <input type="checkbox" name="language[<%= l.name %>]">
+    <label for="<%= l.name %>"><%= l.name %></label>
   <% end %>
+
   <%= f.submit "That's what I'm about!" %>
 <% end %>
 
