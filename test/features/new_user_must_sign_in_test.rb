@@ -43,7 +43,6 @@ class NewUserMustSignInTest < ActionDispatch::IntegrationTest
     click_link_or_button "Login with Github"
     fill_in "Details", with: "I love programming"
     click_link_or_button "That's what I'm about!"
-    save_and_open_page
     assert_equal dashboard_path, current_path
     click_link_or_button "Log Out"
     assert_equal root_path, current_path
