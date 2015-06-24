@@ -1,11 +1,17 @@
 class Seed
 
   def call
+    languages
     create_users
   end
 
-  def create_users
+  def languages
+    ["Ruby", "JavaScript", "VisualBasic", "Python", "Java"].each do |language|
+      Language.create(name: language)
+    end
+  end
 
+  def create_users
   User.create(
     nickname: "121watts",
     id: 7582765,
