@@ -4,6 +4,7 @@ class Seed
     generate_languages
     create_users
     generate_user_languages
+    generate_partners
   end
 
   def generate_languages
@@ -80,6 +81,16 @@ class Seed
     end
 
     p "users now have languages"
+  end
+
+  def generate_partners
+    User.all.each do |user1|
+      User.all.each do |user2|
+        Partnership.create(user_id: user1.id, partner_id: user2.id, condition: 0) unless user1.id == user2.id
+      end
+    end
+
+    p "partners generated"
   end
 
 

@@ -5,6 +5,6 @@ class StaticPagesController < ApplicationController
   end
 
   def dashboard
-    # all our matches go here
+    @partnerships = Partnership.all
   end
 end

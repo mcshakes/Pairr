@@ -1,9 +1,25 @@
 <div class="container">
   <div class="row">
     <h1>Welcome to your Pair Dashboard <%= current_user.nickname %> </h1>
+
   </div>
 
   <div class="row">
-    <%= link_to "Find Pair", "#" %>
+    <%= image_tag current_user.image_url %>
+  </div>
+
+<div class="fave_langs">
+  <h3>Your favorite languages</h3>
+  <ul>
+    <% current_user.languages.map do |l| %>
+      <li><%= l.name %></li>
+    <% end %>
+  </ul>
+</div>
+
+  <div class="row">
+    <div class="partner_path">
+      <%= link_to "Find Pair", partner_path(current_user.id) %>
+  </div>
   </div>
 </div>

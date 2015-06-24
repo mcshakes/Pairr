@@ -1,8 +1,15 @@
 class User < ActiveRecord::Base
-  validates :details, length: { maximum: 500 }
   has_many :user_languages
   has_many :languages, through: :user_languages
+
+  has_many :partnerships
+  has_many :paireds, through: :partnerships
+
+  has_many :inverse_partners, :class_name => "Partnership", :foreign_key => "partner_id"
+  has_many :inverse_partners, :through => :inverse_partners, :source => :user
+
   validates :nickname, presence: true
+  validates :details, length: { maximum: 500 }
 
   def self.find_or_create_from_auth(data)
     user = User.find_or_create_by(provider: data.provider, uid: data.uid)
@@ -14,7 +21,7 @@ class User < ActiveRecord::Base
     user
   end
 
-  def self.different_users
-    User.find(:all, :conditions => ["id != ?", current_user.id])
-  end
+  # def self.different_users
+  #   User.all.where(user.id != current_user.id)
+  # end
 end

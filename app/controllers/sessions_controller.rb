@@ -5,12 +5,11 @@ class SessionsController < ApplicationController
 
     if user
       session[:user_id] = user.id
+      generate_partners
       if user.languages.empty?
         redirect_to edit_user_path(user)
       else
-        # redirect_to user_path(user)
         redirect_to dashboard_path
-        # needs to redirect to a dashboard of some sort
       end
       user.save
     else
@@ -24,7 +23,11 @@ class SessionsController < ApplicationController
     request.env["omniauth.auth"]
   end
 
-  # def no_languages?
-  #
-  # end
+  def generate_partners
+    User.all.each do |user1|
+      User.all.each do |user2|
+        Partnership.create(user_id: user1.id, partner_id: user2.id, condition: 0) unless user1.id == user2.id
+      end
+    end
+  end
 end
