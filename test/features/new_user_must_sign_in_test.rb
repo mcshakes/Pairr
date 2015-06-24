@@ -27,7 +27,7 @@ class NewUserMustSignInTest < ActionDispatch::IntegrationTest
     assert page.has_content? "Github"
   end
 
-  test "clicking that sign in button takes user through OAuth portal" do
+  test "clicking that sign in button takes user through OAuth portal to Details page" do
     visit root_path
     click_link_or_button "Login with Github"
     assert page.has_content? "User Information"
@@ -37,6 +37,7 @@ class NewUserMustSignInTest < ActionDispatch::IntegrationTest
     save_and_open_page
     assert page.has_content? "Welcome fakerbocker"
   end
+
 
 
 end

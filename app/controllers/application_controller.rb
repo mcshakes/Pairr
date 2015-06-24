@@ -11,6 +11,6 @@ class ApplicationController < ActionController::Base
   end
 
   def authorize!
-    redirect_to root_path unless current_user
+    redirect_to root_path unless current_user && params[:controller] = "home"
   end
 end
