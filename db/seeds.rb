@@ -7,10 +7,9 @@ class Seed
   def create_users
 
   User.create(
-    login: "121watts",
+    nickname: "121watts",
     id: 7582765,
-    avatar_url: "https://avatars.githubusercontent.com/u/7582765?v=3",
-    html_url: "https://github.com/121watts",
+    image_url: "https://avatars.githubusercontent.com/u/7582765?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -35,13 +34,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "alanbsmith",
+    nickname: "alanbsmith",
     id: 4818182,
-    avatar_url: "https://avatars.githubusercontent.com/u/4818182?v=3",
-    html_url: "https://github.com/alanbsmith",
+    image_url: "https://avatars.githubusercontent.com/u/4818182?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -66,13 +64,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "allisonlarson",
+    nickname: "allisonlarson",
     id: 7552541,
-    avatar_url: "https://avatars.githubusercontent.com/u/7552541?v=3",
-    html_url: "https://github.com/allisonlarson",
+    image_url: "https://avatars.githubusercontent.com/u/7552541?v=3",
     languages: {
       JavaScript: 0,
       Java: 1,
@@ -97,13 +94,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "AndyDangerous",
+    nickname: "AndyDangerous",
     id: 2694765,
-    avatar_url: "https://avatars.githubusercontent.com/u/2694765?v=3",
-    html_url: "https://github.com/AndyDangerous",
+    image_url: "https://avatars.githubusercontent.com/u/2694765?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -128,13 +124,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "BobGu",
+    nickname: "BobGu",
     id: 4348166,
-    avatar_url: "https://avatars.githubusercontent.com/u/4348166?v=3",
-    html_url: "https://github.com/BobGu",
+    image_url: "https://avatars.githubusercontent.com/u/4348166?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -159,13 +154,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "chadbrading",
+    nickname: "chadbrading",
     id: 6863100,
-    avatar_url: "https://avatars.githubusercontent.com/u/6863100?v=3",
-    html_url: "https://github.com/chadbrading",
+    image_url: "https://avatars.githubusercontent.com/u/6863100?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -190,13 +184,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "coreyd303",
+    nickname: "coreyd303",
     id: 6662565,
-    avatar_url: "https://avatars.githubusercontent.com/u/6662565?v=3",
-    html_url: "https://github.com/coreyd303",
+    image_url: "https://avatars.githubusercontent.com/u/6662565?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -221,13 +214,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "emilyadavis303",
+    nickname: "emilyadavis303",
     id: 7103421,
-    avatar_url: "https://avatars.githubusercontent.com/u/7103421?v=3",
-    html_url: "https://github.com/emilyadavis303",
+    image_url: "https://avatars.githubusercontent.com/u/7103421?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -252,13 +244,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "ericfransen",
+    nickname: "ericfransen",
     id: 5271281,
-    avatar_url: "https://avatars.githubusercontent.com/u/5271281?v=3",
-    html_url: "https://github.com/ericfransen",
+    image_url: "https://avatars.githubusercontent.com/u/5271281?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -283,13 +274,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "GusVilla303",
+    nickname: "GusVilla303",
     id: 6902951,
-    avatar_url: "https://avatars.githubusercontent.com/u/6902951?v=3",
-    html_url: "https://github.com/GusVilla303",
+    image_url: "https://avatars.githubusercontent.com/u/6902951?v=3",
     languages: {
       JavaScript: 0,
       Java: 1,
@@ -314,13 +304,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "Hilaryous",
+    nickname: "Hilaryous",
     id: 5042071,
-    avatar_url: "https://avatars.githubusercontent.com/u/5042071?v=3",
-    html_url: "https://github.com/Hilaryous",
+    image_url: "https://avatars.githubusercontent.com/u/5042071?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -345,13 +334,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "HoracioChavez",
+    nickname: "HoracioChavez",
     id: 3926939,
-    avatar_url: "https://avatars.githubusercontent.com/u/3926939?v=3",
-    html_url: "https://github.com/HoracioChavez",
+    image_url: "https://avatars.githubusercontent.com/u/3926939?v=3",
     languages: {
       JavaScript: 0,
       Java: 1,
@@ -376,13 +364,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "jcasimir",
+    nickname: "jcasimir",
     id: 43102,
-    avatar_url: "https://avatars.githubusercontent.com/u/43102?v=3",
-    html_url: "https://github.com/jcasimir",
+    image_url: "https://avatars.githubusercontent.com/u/43102?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -407,13 +394,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "marcgarreau",
+    nickname: "marcgarreau",
     id: 3621728,
-    avatar_url: "https://avatars.githubusercontent.com/u/3621728?v=3",
-    html_url: "https://github.com/marcgarreau",
+    image_url: "https://avatars.githubusercontent.com/u/3621728?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -438,13 +424,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "tanmdoan",
+    nickname: "tanmdoan",
     id: 7057689,
-    avatar_url: "https://avatars.githubusercontent.com/u/7057689?v=3",
-    html_url: "https://github.com/tanmdoan",
+    image_url: "https://avatars.githubusercontent.com/u/7057689?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -469,13 +454,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "timproctor",
+    nickname: "timproctor",
     id: 5150213,
-    avatar_url: "https://avatars.githubusercontent.com/u/5150213?v=3",
-    html_url: "https://github.com/timproctor",
+    image_url: "https://avatars.githubusercontent.com/u/5150213?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -500,13 +484,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "tyrbo",
+    nickname: "tyrbo",
     id: 2217533,
-    avatar_url: "https://avatars.githubusercontent.com/u/2217533?v=3",
-    html_url: "https://github.com/tyrbo",
+    image_url: "https://avatars.githubusercontent.com/u/2217533?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -531,13 +514,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "wfro",
+    nickname: "wfro",
     id: 6454987,
-    avatar_url: "https://avatars.githubusercontent.com/u/6454987?v=3",
-    html_url: "https://github.com/wfro",
+    image_url: "https://avatars.githubusercontent.com/u/6454987?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -562,13 +544,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "worace",
+    nickname: "worace",
     id: 1227440,
-    avatar_url: "https://avatars.githubusercontent.com/u/1227440?v=3",
-    html_url: "https://github.com/worace",
+    image_url: "https://avatars.githubusercontent.com/u/1227440?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -593,13 +574,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "a6ftcruton",
+    nickname: "a6ftcruton",
     id: 5419731,
-    avatar_url: "https://avatars.githubusercontent.com/u/5419731?v=3",
-    html_url: "https://github.com/a6ftcruton",
+    image_url: "https://avatars.githubusercontent.com/u/5419731?v=3",
     languages: {
       JavaScript: 0,
       Java: 1,
@@ -624,13 +604,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "awortham",
+    nickname: "awortham",
     id: 6271986,
-    avatar_url: "https://avatars.githubusercontent.com/u/6271986?v=3",
-    html_url: "https://github.com/awortham",
+    image_url: "https://avatars.githubusercontent.com/u/6271986?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -655,13 +634,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "glenegbert",
+    nickname: "glenegbert",
     id: 5980245,
-    avatar_url: "https://avatars.githubusercontent.com/u/5980245?v=3",
-    html_url: "https://github.com/glenegbert",
+    image_url: "https://avatars.githubusercontent.com/u/5980245?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -686,13 +664,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "ianderse",
+    nickname: "ianderse",
     id: 5242189,
-    avatar_url: "https://avatars.githubusercontent.com/u/5242189?v=3",
-    html_url: "https://github.com/ianderse",
+    image_url: "https://avatars.githubusercontent.com/u/5242189?v=3",
     languages: {
       JavaScript: 0,
       Java: 1,
@@ -717,13 +694,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "jcasimir",
+    nickname: "jcasimir",
     id: 43102,
-    avatar_url: "https://avatars.githubusercontent.com/u/43102?v=3",
-    html_url: "https://github.com/jcasimir",
+    image_url: "https://avatars.githubusercontent.com/u/43102?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -748,13 +724,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "kavitasa",
+    nickname: "kavitasa",
     id: 1514862,
-    avatar_url: "https://avatars.githubusercontent.com/u/1514862?v=3",
-    html_url: "https://github.com/kavitasa",
+    image_url: "https://avatars.githubusercontent.com/u/1514862?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -779,13 +754,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "lukeaiken",
+    nickname: "lukeaiken",
     id: 3201898,
-    avatar_url: "https://avatars.githubusercontent.com/u/3201898?v=3",
-    html_url: "https://github.com/lukeaiken",
+    image_url: "https://avatars.githubusercontent.com/u/3201898?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -810,13 +784,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "rNavarrete",
+    nickname: "rNavarrete",
     id: 3431580,
-    avatar_url: "https://avatars.githubusercontent.com/u/3431580?v=3",
-    html_url: "https://github.com/rNavarrete",
+    image_url: "https://avatars.githubusercontent.com/u/3431580?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -841,13 +814,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "smbsimon",
+    nickname: "smbsimon",
     id: 5553382,
-    avatar_url: "https://avatars.githubusercontent.com/u/5553382?v=3",
-    html_url: "https://github.com/smbsimon",
+    image_url: "https://avatars.githubusercontent.com/u/5553382?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -872,13 +844,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "worace",
+    nickname: "worace",
     id: 1227440,
-    avatar_url: "https://avatars.githubusercontent.com/u/1227440?v=3",
-    html_url: "https://github.com/worace",
+    image_url: "https://avatars.githubusercontent.com/u/1227440?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -903,13 +874,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "chandracarney",
+    nickname: "chandracarney",
     id: 8561841,
-    avatar_url: "https://avatars.githubusercontent.com/u/8561841?v=3",
-    html_url: "https://github.com/chandracarney",
+    image_url: "https://avatars.githubusercontent.com/u/8561841?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -934,13 +904,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "ChasevanHekken",
+    nickname: "ChasevanHekken",
     id: 5781795,
-    avatar_url: "https://avatars.githubusercontent.com/u/5781795?v=3",
-    html_url: "https://github.com/ChasevanHekken",
+    image_url: "https://avatars.githubusercontent.com/u/5781795?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -965,13 +934,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "Copywright",
+    nickname: "Copywright",
     id: 7808793,
-    avatar_url: "https://avatars.githubusercontent.com/u/7808793?v=3",
-    html_url: "https://github.com/Copywright",
+    image_url: "https://avatars.githubusercontent.com/u/7808793?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -996,13 +964,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "dalexj",
+    nickname: "dalexj",
     id: 2790993,
-    avatar_url: "https://avatars.githubusercontent.com/u/2790993?v=3",
-    html_url: "https://github.com/dalexj",
+    image_url: "https://avatars.githubusercontent.com/u/2790993?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -1027,13 +994,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "dglunz",
+    nickname: "dglunz",
     id: 2965795,
-    avatar_url: "https://avatars.githubusercontent.com/u/2965795?v=3",
-    html_url: "https://github.com/dglunz",
+    image_url: "https://avatars.githubusercontent.com/u/2965795?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -1058,13 +1024,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "gregnar",
+    nickname: "gregnar",
     id: 8186136,
-    avatar_url: "https://avatars.githubusercontent.com/u/8186136?v=3",
-    html_url: "https://github.com/gregnar",
+    image_url: "https://avatars.githubusercontent.com/u/8186136?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -1089,13 +1054,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "katelane",
+    nickname: "katelane",
     id: 3933878,
-    avatar_url: "https://avatars.githubusercontent.com/u/3933878?v=3",
-    html_url: "https://github.com/katelane",
+    image_url: "https://avatars.githubusercontent.com/u/3933878?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -1120,13 +1084,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "skuhlmann",
+    nickname: "skuhlmann",
     id: 6923345,
-    avatar_url: "https://avatars.githubusercontent.com/u/6923345?v=3",
-    html_url: "https://github.com/skuhlmann",
+    image_url: "https://avatars.githubusercontent.com/u/6923345?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -1151,13 +1114,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "Tmee",
+    nickname: "Tmee",
     id: 8226837,
-    avatar_url: "https://avatars.githubusercontent.com/u/8226837?v=3",
-    html_url: "https://github.com/Tmee",
+    image_url: "https://avatars.githubusercontent.com/u/8226837?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -1182,13 +1144,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "trayo",
+    nickname: "trayo",
     id: 6809782,
-    avatar_url: "https://avatars.githubusercontent.com/u/6809782?v=3",
-    html_url: "https://github.com/trayo",
+    image_url: "https://avatars.githubusercontent.com/u/6809782?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -1213,13 +1174,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "VikiAnn",
+    nickname: "VikiAnn",
     id: 5874167,
-    avatar_url: "https://avatars.githubusercontent.com/u/5874167?v=3",
-    html_url: "https://github.com/VikiAnn",
+    image_url: "https://avatars.githubusercontent.com/u/5874167?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -1244,44 +1204,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "worace",
-    id: 1227440,
-    avatar_url: "https://avatars.githubusercontent.com/u/1227440?v=3",
-    html_url: "https://github.com/worace",
-    languages: {
-      JavaScript: 0,
-      Java: 1,
-      Ruby: 1,
-      C: 0,
-      CSS: 1,
-      PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 0
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "zRouth",
+    nickname: "zRouth",
     id: 8505719,
-    avatar_url: "https://avatars.githubusercontent.com/u/8505719?v=3",
-    html_url: "https://github.com/zRouth",
+    image_url: "https://avatars.githubusercontent.com/u/8505719?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -1306,13 +1234,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "bhargavisatpathy",
+    nickname: "bhargavisatpathy",
     id: 8531351,
-    avatar_url: "https://avatars.githubusercontent.com/u/8531351?v=3",
-    html_url: "https://github.com/bhargavisatpathy",
+    image_url: "https://avatars.githubusercontent.com/u/8531351?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -1337,13 +1264,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "bmrsny",
+    nickname: "bmrsny",
     id: 8440504,
-    avatar_url: "https://avatars.githubusercontent.com/u/8440504?v=3",
-    html_url: "https://github.com/bmrsny",
+    image_url: "https://avatars.githubusercontent.com/u/8440504?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -1368,13 +1294,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "bryceholcomb",
+    nickname: "bryceholcomb",
     id: 6202829,
-    avatar_url: "https://avatars.githubusercontent.com/u/6202829?v=3",
-    html_url: "https://github.com/bryceholcomb",
+    image_url: "https://avatars.githubusercontent.com/u/6202829?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -1399,13 +1324,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "cluhring",
+    nickname: "cluhring",
     id: 8466906,
-    avatar_url: "https://avatars.githubusercontent.com/u/8466906?v=3",
-    html_url: "https://github.com/cluhring",
+    image_url: "https://avatars.githubusercontent.com/u/8466906?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -1430,13 +1354,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "EmilyMB",
+    nickname: "EmilyMB",
     id: 8007635,
-    avatar_url: "https://avatars.githubusercontent.com/u/8007635?v=3",
-    html_url: "https://github.com/EmilyMB",
+    image_url: "https://avatars.githubusercontent.com/u/8007635?v=3",
     languages: {
       JavaScript: 0,
       Java: 1,
@@ -1461,13 +1384,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "Jwan622",
+    nickname: "Jwan622",
     id: 6790201,
-    avatar_url: "https://avatars.githubusercontent.com/u/6790201?v=3",
-    html_url: "https://github.com/Jwan622",
+    image_url: "https://avatars.githubusercontent.com/u/6790201?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -1492,13 +1414,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "KristaANelson",
+    nickname: "KristaANelson",
     id: 8313881,
-    avatar_url: "https://avatars.githubusercontent.com/u/8313881?v=3",
-    html_url: "https://github.com/KristaANelson",
+    image_url: "https://avatars.githubusercontent.com/u/8313881?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -1523,13 +1444,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "larsonkonr",
+    nickname: "larsonkonr",
     id: 7245142,
-    avatar_url: "https://avatars.githubusercontent.com/u/7245142?v=3",
-    html_url: "https://github.com/larsonkonr",
+    image_url: "https://avatars.githubusercontent.com/u/7245142?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -1554,13 +1474,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "laurawhalin",
+    nickname: "laurawhalin",
     id: 8449527,
-    avatar_url: "https://avatars.githubusercontent.com/u/8449527?v=3",
-    html_url: "https://github.com/laurawhalin",
+    image_url: "https://avatars.githubusercontent.com/u/8449527?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -1585,13 +1504,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "Lydias303",
+    nickname: "Lydias303",
     id: 8863407,
-    avatar_url: "https://avatars.githubusercontent.com/u/8863407?v=3",
-    html_url: "https://github.com/Lydias303",
+    image_url: "https://avatars.githubusercontent.com/u/8863407?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -1616,13 +1534,12 @@ class Seed
       Rust: 0,
       Swift: 0
     },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
+    details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
   User.create(
-    login: "mikedao",
+    nickname: "mikedao",
     id: 3011748,
-    avatar_url: "https://avatars.githubusercontent.com/u/3011748?v=3",
-    html_url: "https://github.com/mikedao",
+    image_url: "https://avatars.githubusercontent.com/u/3011748?v=3",
     languages: {
       JavaScript: 1,
       Java: 0,
@@ -1647,13 +1564,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "ndwhtlssthr",
+    nickname: "ndwhtlssthr",
     id: 3827810,
-    avatar_url: "https://avatars.githubusercontent.com/u/3827810?v=3",
-    html_url: "https://github.com/ndwhtlssthr",
+    image_url: "https://avatars.githubusercontent.com/u/3827810?v=3",
     languages: {
       JavaScript: 0,
       Java: 1,
@@ -1678,13 +1594,12 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "SalesEngine was my glory days can we work on it again?")
+    details: "SalesEngine was my glory days can we work on it again?")
 
   User.create(
-    login: "oorion",
+    nickname: "oorion",
     id: 869456,
-    avatar_url: "https://avatars.githubusercontent.com/u/869456?v=3",
-    html_url: "https://github.com/oorion",
+    image_url: "https://avatars.githubusercontent.com/u/869456?v=3",
     languages: {
       JavaScript: 0,
       Java: 0,
@@ -1709,13 +1624,12 @@ class Seed
       Rust: 1,
       Swift: 1
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
   User.create(
-    login: "rshea303",
+    nickname: "rshea303",
     id: 7894293,
-    avatar_url: "https://avatars.githubusercontent.com/u/7894293?v=3",
-    html_url: "https://github.com/rshea303",
+    image_url: "https://avatars.githubusercontent.com/u/7894293?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -1740,13 +1654,12 @@ class Seed
       Rust: 1,
       Swift: 0
     },
-    description: "i am so alone plz pair with me")
+    details: "i am so alone plz pair with me")
 
   User.create(
-    login: "scottalexandra",
+    nickname: "scottalexandra",
     id: 8812335,
-    avatar_url: "https://avatars.githubusercontent.com/u/8812335?v=3",
-    html_url: "https://github.com/scottalexandra",
+    image_url: "https://avatars.githubusercontent.com/u/8812335?v=3",
     languages: {
       JavaScript: 1,
       Java: 1,
@@ -1771,814 +1684,7 @@ class Seed
       Rust: 0,
       Swift: 1
     },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "scottcrawford03",
-    id: 8398867,
-    avatar_url: "https://avatars.githubusercontent.com/u/8398867?v=3",
-    html_url: "https://github.com/scottcrawford03",
-    languages: {
-      JavaScript: 0,
-      Java: 1,
-      Ruby: 1,
-      C: 1,
-      CSS: 1,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
-    },
-    description: "i am so alone plz pair with me")
-
-  User.create(
-    login: "worace",
-    id: 1227440,
-    avatar_url: "https://avatars.githubusercontent.com/u/1227440?v=3",
-    html_url: "https://github.com/worace",
-    languages: {
-      JavaScript: 0,
-      Java: 0,
-      Ruby: 0,
-      C: 0,
-      CSS: 1,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 1
-    },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
-
-  User.create(
-    login: "AllPurposeName",
-    id: 9127698,
-    avatar_url: "https://avatars.githubusercontent.com/u/9127698?v=3",
-    html_url: "https://github.com/AllPurposeName",
-    languages: {
-      JavaScript: 1,
-      Java: 1,
-      Ruby: 0,
-      C: 1,
-      CSS: 0,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
-    },
-    description: "SalesEngine was my glory days can we work on it again?")
-
-  User.create(
-    login: "DSynergy",
-    id: 7361182,
-    avatar_url: "https://avatars.githubusercontent.com/u/7361182?v=3",
-    html_url: "https://github.com/DSynergy",
-    languages: {
-      JavaScript: 1,
-      Java: 0,
-      Ruby: 1,
-      C: 0,
-      CSS: 0,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
-    },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
-
-  User.create(
-    login: "indiesquidge",
-    id: 3409645,
-    avatar_url: "https://avatars.githubusercontent.com/u/3409645?v=3",
-    html_url: "https://github.com/indiesquidge",
-    languages: {
-      JavaScript: 1,
-      Java: 1,
-      Ruby: 0,
-      C: 1,
-      CSS: 1,
-      PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "jgu2160",
-    id: 5934106,
-    avatar_url: "https://avatars.githubusercontent.com/u/5934106?v=3",
-    html_url: "https://github.com/jgu2160",
-    languages: {
-      JavaScript: 1,
-      Java: 0,
-      Ruby: 1,
-      C: 1,
-      CSS: 1,
-      PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
-    },
-    description: "i am so alone plz pair with me")
-
-  User.create(
-    login: "kpearson",
-    id: 3293289,
-    avatar_url: "https://avatars.githubusercontent.com/u/3293289?v=3",
-    html_url: "https://github.com/kpearson",
-    languages: {
-      JavaScript: 1,
-      Java: 1,
-      Ruby: 0,
-      C: 0,
-      CSS: 0,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "kyrasteen",
-    id: 6415583,
-    avatar_url: "https://avatars.githubusercontent.com/u/6415583?v=3",
-    html_url: "https://github.com/kyrasteen",
-    languages: {
-      JavaScript: 1,
-      Java: 1,
-      Ruby: 1,
-      C: 0,
-      CSS: 1,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
-    },
-    description: "SalesEngine was my glory days can we work on it again?")
-
-  User.create(
-    login: "mcshakes",
-    id: 8164007,
-    avatar_url: "https://avatars.githubusercontent.com/u/8164007?v=3",
-    html_url: "https://github.com/mcshakes",
-    languages: {
-      JavaScript: 1,
-      Java: 1,
-      Ruby: 1,
-      C: 1,
-      CSS: 0,
-      PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "mirjoy",
-    id: 5142805,
-    avatar_url: "https://avatars.githubusercontent.com/u/5142805?v=3",
-    html_url: "https://github.com/mirjoy",
-    languages: {
-      JavaScript: 0,
-      Java: 1,
-      Ruby: 0,
-      C: 0,
-      CSS: 1,
-      PHP: 1,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
-    },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
-
-  User.create(
-    login: "neslom",
-    id: 8800860,
-    avatar_url: "https://avatars.githubusercontent.com/u/8800860?v=3",
-    html_url: "https://github.com/neslom",
-    languages: {
-      JavaScript: 0,
-      Java: 1,
-      Ruby: 0,
-      C: 0,
-      CSS: 0,
-      PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "paulgrever",
-    id: 3664281,
-    avatar_url: "https://avatars.githubusercontent.com/u/3664281?v=3",
-    html_url: "https://github.com/paulgrever",
-    languages: {
-      JavaScript: 1,
-      Java: 0,
-      Ruby: 0,
-      C: 1,
-      CSS: 0,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "treyx",
-    id: 9888146,
-    avatar_url: "https://avatars.githubusercontent.com/u/9888146?v=3",
-    html_url: "https://github.com/treyx",
-    languages: {
-      JavaScript: 1,
-      Java: 0,
-      Ruby: 1,
-      C: 0,
-      CSS: 0,
-      PHP: 1,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
-    },
-    description: "i am so alone plz pair with me")
-
-  User.create(
-    login: "worace",
-    id: 1227440,
-    avatar_url: "https://avatars.githubusercontent.com/u/1227440?v=3",
-    html_url: "https://github.com/worace",
-    languages: {
-      JavaScript: 0,
-      Java: 1,
-      Ruby: 1,
-      C: 1,
-      CSS: 0,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
-    },
-    description: "i am so alone plz pair with me")
-
-  User.create(
-    login: "xvalentino",
-    id: 8762410,
-    avatar_url: "https://avatars.githubusercontent.com/u/8762410?v=3",
-    html_url: "https://github.com/xvalentino",
-    languages: {
-      JavaScript: 1,
-      Java: 0,
-      Ruby: 1,
-      C: 0,
-      CSS: 1,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "DaishaV",
-    id: 11197637,
-    avatar_url: "https://avatars.githubusercontent.com/u/11197637?v=3",
-    html_url: "https://github.com/DaishaV",
-    languages: {
-      JavaScript: 0,
-      Java: 1,
-      Ruby: 0,
-      C: 0,
-      CSS: 1,
-      PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
-    },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
-
-  User.create(
-    login: "jcasimir",
-    id: 43102,
-    avatar_url: "https://avatars.githubusercontent.com/u/43102?v=3",
-    html_url: "https://github.com/jcasimir",
-    languages: {
-      JavaScript: 1,
-      Java: 0,
-      Ruby: 1,
-      C: 1,
-      CSS: 1,
-      PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
-    },
-    description: "i am so alone plz pair with me")
-
-  User.create(
-    login: "jmejia",
-    id: 73824,
-    avatar_url: "https://avatars.githubusercontent.com/u/73824?v=3",
-    html_url: "https://github.com/jmejia",
-    languages: {
-      JavaScript: 1,
-      Java: 0,
-      Ruby: 1,
-      C: 0,
-      CSS: 1,
-      PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
-    },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
-
-  User.create(
-    login: "JoshCheek",
-    id: 77495,
-    avatar_url: "https://avatars.githubusercontent.com/u/77495?v=3",
-    html_url: "https://github.com/JoshCheek",
-    languages: {
-      JavaScript: 1,
-      Java: 1,
-      Ruby: 1,
-      C: 1,
-      CSS: 0,
-      PHP: 1,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 1
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "marissamariesmith",
-    id: 12720982,
-    avatar_url: "https://avatars.githubusercontent.com/u/12720982?v=3",
-    html_url: "https://github.com/marissamariesmith",
-    languages: {
-      JavaScript: 0,
-      Java: 0,
-      Ruby: 0,
-      C: 0,
-      CSS: 1,
-      PHP: 1,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 0
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "mikedao",
-    id: 3011748,
-    avatar_url: "https://avatars.githubusercontent.com/u/3011748?v=3",
-    html_url: "https://github.com/mikedao",
-    languages: {
-      JavaScript: 0,
-      Java: 0,
-      Ruby: 1,
-      C: 1,
-      CSS: 0,
-      PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 0
-    },
-    description: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
-
-  User.create(
-    login: "novohispano",
-    id: 1654034,
-    avatar_url: "https://avatars.githubusercontent.com/u/1654034?v=3",
-    html_url: "https://github.com/novohispano",
-    languages: {
-      JavaScript: 0,
-      Java: 0,
-      Ruby: 1,
-      C: 1,
-      CSS: 1,
-      PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
-    },
-    description: "i am so alone plz pair with me")
-
-  User.create(
-    login: "raissashafer",
-    id: 8548182,
-    avatar_url: "https://avatars.githubusercontent.com/u/8548182?v=3",
-    html_url: "https://github.com/raissashafer",
-    languages: {
-      JavaScript: 1,
-      Java: 0,
-      Ruby: 0,
-      C: 1,
-      CSS: 0,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 1
-    },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
-
-  User.create(
-    login: "rwarbelow",
-    id: 3311609,
-    avatar_url: "https://avatars.githubusercontent.com/u/3311609?v=3",
-    html_url: "https://github.com/rwarbelow",
-    languages: {
-      JavaScript: 0,
-      Java: 0,
-      Ruby: 1,
-      C: 1,
-      CSS: 0,
-      PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 0
-    },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
-
-  User.create(
-    login: "stevekinney",
-    id: 251000,
-    avatar_url: "https://avatars.githubusercontent.com/u/251000?v=3",
-    html_url: "https://github.com/stevekinney",
-    languages: {
-      JavaScript: 0,
-      Java: 0,
-      Ruby: 1,
-      C: 1,
-      CSS: 0,
-      PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
-    },
-    description: "i am so alone plz pair with me")
-
-  User.create(
-    login: "worace",
-    id: 1227440,
-    avatar_url: "https://avatars.githubusercontent.com/u/1227440?v=3",
-    html_url: "https://github.com/worace",
-    languages: {
-      JavaScript: 0,
-      Java: 1,
-      Ruby: 0,
-      C: 0,
-      CSS: 0,
-      PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
-    },
-    description: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
-
+    details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
   end
 
   def self.call

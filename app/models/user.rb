@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  validates :details, length: { maximum: 500 }
+
   def self.find_or_create_from_auth(data)
     user = User.find_or_create_by(provider: data.provider, uid: data.uid)
     # binding.pry into here to see data.info
