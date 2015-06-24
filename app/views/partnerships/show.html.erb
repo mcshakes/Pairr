@@ -1,7 +1,7 @@
 Your new match below:
 
-<%= @partner.nickname %> <br>
-<%= image_tag @partner.image_url,  %>
+<h3><%= @partner.nickname %> </h3><br>
+<%= image_tag @partner.image_url %> <br>
 
 <%= button_to "Pair", paired_path(partner_id: @partner.id)  %>
 
