@@ -1,1 +1,11 @@
-<h1>hey</h1>
+<h1>Welcome <%= current_user.nickname %></h1>
+
+<h2>All your fave languages</h2>
+
+<ul>
+  <% current_user.languages.map do |l| %>
+    <li><%= l.name %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Find a Pair", "#"  %>
