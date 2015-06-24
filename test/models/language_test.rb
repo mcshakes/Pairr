@@ -6,8 +6,8 @@ class LanguageTest < ActiveSupport::TestCase
     @language ||= Language.new
   end
 
-  def test_valid
-    assert language.valid?
-  end
+  # def test_valid
+  #   assert language.valid?
+  # end
 
 end

@@ -228,6 +228,36 @@
         null,
         null
       ],
+      "/Users/edmac/Turing/Module_4/final_assessment/pairr/test/models/language_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/edmac/Turing/Module_4/final_assessment/pairr/test/models/user_language_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/edmac/Turing/Module_4/final_assessment/pairr/test/models/user_test.rb": [
         1,
         null,
@@ -248,6 +278,19 @@
         1,
         null,
         null,
+        null
+      ],
+      "/Users/edmac/Turing/Module_4/final_assessment/pairr/app/models/language.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/edmac/Turing/Module_4/final_assessment/pairr/app/models/user_language.rb": [
+        1,
+        1,
+        1,
         null
       ],
       "/Users/edmac/Turing/Module_4/final_assessment/pairr/app/controllers/static_pages_controller.rb": [
@@ -321,6 +364,9 @@
       "/Users/edmac/Turing/Module_4/final_assessment/pairr/app/models/user.rb": [
         1,
         1,
+        1,
+        1,
+        1,
         null,
         1,
         1,
@@ -344,6 +390,7 @@
         null,
         null,
         null,
+        1,
         1,
         1,
         null,
@@ -373,6 +420,6 @@
         null
       ]
     },
-    "timestamp": 1435111950
+    "timestamp": 1435124642
   }
 }

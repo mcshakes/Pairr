@@ -7,7 +7,7 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test "user can have a description" do
-    user = User.new(details: "can't have more than 500 characters I guess...")
+    user = User.new(details: "can't have more than 500 characters I guess...", nickname: "butt")
     assert user.valid?
   end
 
