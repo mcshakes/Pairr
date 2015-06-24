@@ -8,7 +8,9 @@ class SessionsController < ApplicationController
       if user.languages.empty?
         redirect_to edit_user_path(user)
       else
-        redirect_to user_path(user)
+        # redirect_to user_path(user)
+        redirect_to dashboard_path
+        # needs to redirect to a dashboard of some sort
       end
       user.save
     else
