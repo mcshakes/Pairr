@@ -1,0 +1,30 @@
+<h1>Pick a Pair</h1>
+
+<div class="row">
+  <div class="selection">
+    <div class="identifier">
+      <%# @user.image_url %>
+      <%# @user.nickname %>
+    </div>
+
+    <div class="content">
+      <p>
+        <%= @user.details %>
+      </p>
+
+      <h5>Skills:</h5>
+
+      <%= @user.languages.pluck(:name) %>
+    </div>
+
+    <div class="user-actions">
+      <div class="row">
+        <%= button_to("Yes", partnerships_path(pair_id: @user.id, condition: "Pending"))  %>
+
+        <%= button_to("No", partnerships_path(pair_id: @user.id, condition: "Reject"))  %>
+      </div>
+    </div>
+
+  </div>
+
+</div>

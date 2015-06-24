@@ -1,0 +1,10 @@
+Your new match below:
+
+<h3><%= @partner.nickname %> </h3><br>
+<%= image_tag @partner.image_url %> <br>
+
+<%= button_to "Pair", paired_path(partner_id: @partner.id)  %>
+
+<%= button_to "Unpair", unpaired_path(partner_id: @partner.id) %>
+
+<%= link_to "Back to Your Dashboard", dashboard_path %>

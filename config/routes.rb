@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
 
+  post "paired", to: "partnerships#paired"
+  post "unpaired", to: "partnerships#unpaired"
+
+  get "partnership/:id", to: "partnerships#show", as: "partner"
+
   get '/auth/:provider/callback', to: "sessions#create"
   root 'static_pages#home'
-  resources :matches
+  get "static_pages/dashboard", to: "static_pages#dashboard", as: "dashboard"
+
+  delete 'logout', to: 'sessions#destroy'
   resources :users
-  # root 'static_pages#home' at some point need to root here with unauthorized user
 end

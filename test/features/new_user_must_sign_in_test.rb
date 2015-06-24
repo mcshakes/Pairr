@@ -2,9 +2,10 @@ require 'test_helper'
 
 class NewUserMustSignInTest < ActionDispatch::IntegrationTest
   include Capybara::DSL
+  attr_reader :user
 
   def mock_auth_hash
-    OmniAuth.config.mock_auth[:github] = OmniAuth::AuthHash.new({
+    @user = [OmniAuth.config.mock_auth[:github] = OmniAuth::AuthHash.new({
       "provider" => "github",
       "info" => {
         "nickname" => "fakerbocker",
@@ -14,7 +15,7 @@ class NewUserMustSignInTest < ActionDispatch::IntegrationTest
         "token"   => "mock_token",
         "secret"  => "mock_secret"
       }
-      })
+      })]
   end
 
   def setup
@@ -27,15 +28,27 @@ class NewUserMustSignInTest < ActionDispatch::IntegrationTest
     assert page.has_content? "Github"
   end
 
-  test "clicking that sign in button takes user through OAuth portal" do
+  test "clicking that sign in button takes user through OAuth portal to Details page" do
     visit root_path
     click_link_or_button "Login with Github"
     assert page.has_content? "User Information"
-    # assert_equal edit_user_path(user),current_path
     fill_in "Details", with: "I love programming"
     click_link_or_button "That's what I'm about!"
-    assert_equal matches_path,current_path
+    assert page.has_content? "Welcome to your Pair Dashboard fakerbocker"
+    assert_equal dashboard_path, current_path
   end
+
+  test "user can log out" do
+    visit root_path
+    click_link_or_button "Login with Github"
+    fill_in "Details", with: "I love programming"
+    click_link_or_button "That's what I'm about!"
+    save_and_open_page
+    assert_equal dashboard_path, current_path
+    click_link_or_button "Log Out"
+    assert_equal root_path, current_path
+  end
+
 
 
 end

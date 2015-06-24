@@ -1,27 +1,17 @@
 <h1>User Information</h1>
 <h2>Add details to appear more enticing to other Programmers</h2>
 
-<h3>About Me:</h3>
+<h3>Some more details:</h3>
 <%= form_for @user do |f| %>
   <%= f.label :details %> <br>
   <%= f.text_area :details, rows: 10, cols: 40 %> <br>
+
+
+  <h5>Your Preferred Languages</h5>
+  <% @languages.map do |l| %>
+    <input type="checkbox" name="language[<%= l.name %>]">
+    <label for="<%= l.name %>"><%= l.name %></label>
+  <% end %>
+
   <%= f.submit "That's what I'm about!" %>
 <% end %>
-
-<!--
-<div id="checklist">
-  <h3>Your Preferred Languages</h3>
-  <%= form_tag({:controller => "users", :action => "update"}, method: :get) do %>
-    <%= fields_for :language_ids do |ff| %>
-      <ul>
-        <% @languages.each do |language| %>
-          <li>
-            <%= ff.check_box(language.name, {}, language.id, nil) %>
-            <%= language.name %>
-          </li>
-        <% end %>
-      </ul>
-      <%= ff.submit "Languages You Love" %>
-    <% end %>
-  <% end %>
-</div> -->
