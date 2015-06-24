@@ -17,6 +17,11 @@ class SessionsController < ApplicationController
     end
   end
 
+  def destroy
+    session.clear
+    redirect_to root_path
+  end
+
   private
 
   def auth_hash

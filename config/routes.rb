@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   root 'static_pages#home'
   get "static_pages/dashboard", to: "static_pages#dashboard", as: "dashboard"
 
+  delete 'logout', to: 'sessions#destroy'
   resources :users
 end

@@ -38,6 +38,11 @@ class NewUserMustSignInTest < ActionDispatch::IntegrationTest
     assert_equal dashboard_path, current_path
   end
 
+  test "user can log out" do
+    
+
+  end
+
 
 
 end
