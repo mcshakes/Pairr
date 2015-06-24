@@ -184,9 +184,6 @@
         1,
         null,
         1,
-        1,
-        0,
-        0,
         null,
         null,
         null
@@ -303,13 +300,6 @@
         null,
         1,
         null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
         null,
         null
       ],
@@ -318,8 +308,8 @@
         null,
         1,
         null,
-        1,
-        0,
+        null,
+        null,
         null,
         null,
         1,
@@ -361,6 +351,14 @@
         0,
         0,
         null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
         null
       ],
       "/Users/edmac/Turing/Module_4/final_assessment/pairr/app/models/user_language.rb": [
@@ -370,6 +368,6 @@
         null
       ]
     },
-    "timestamp": 1435160640
+    "timestamp": 1435164465
   }
 }

@@ -2,12 +2,12 @@ require "test_helper"
 
 class UserTest < ActiveSupport::TestCase
 
-  def user
-    @user ||= User.new
-  end
+  # def user
+  #   @user ||= User.new
+  # end
 
   test "user can have a description" do
-    user = User.new(details: "can't have more than 500 characters I guess...", nickname: "butt")
+    user = User.new(details: "can't have more than 500 characters I guess...", nickname: "butt", partnerships: [])
     assert user.valid?
   end
 

@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-06-24T09:44:00-06:00">2015-06-24T09:44:00-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-06-24T10:47:46-06:00">2015-06-24T10:47:46-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">74.77%</span></span>
+    (<span class="covered_percent"><span class="red">74.53%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.76
+         0.75
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>31</b> files in total.
-    <b>111</b> relevant lines. 
-    <span class="green"><b>83</b> lines covered</span> and
-    <span class="red"><b>28</b> lines missed </span>
+    <b>106</b> relevant lines. 
+    <span class="green"><b>79</b> lines covered</span> and
+    <span class="red"><b>27</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -122,12 +122,12 @@
       
       <tr>
         <td class="strong"><a href="#40cf70dfa3e79cd10435c943d78fca3a871a4449" class="src_link" title="app/models/partnership.rb">app/models/partnership.rb</a></td>
-        <td class="red strong">61.54 %</td>
-        <td>19</td>
-        <td>13</td>
+        <td class="red strong">47.06 %</td>
+        <td>27</td>
+        <td>17</td>
         <td>8</td>
-        <td>5</td>
-        <td>0.6</td>
+        <td>9</td>
+        <td>0.5</td>
       </tr>
       
       <tr>
@@ -282,12 +282,12 @@
       
       <tr>
         <td class="strong"><a href="#0a7624acbef810972a5d9060f92862faa0e1aedc" class="src_link" title="test/controllers/static_pages_controller_test.rb">test/controllers/static_pages_controller_test.rb</a></td>
-        <td class="red strong">60.0 %</td>
-        <td>9</td>
-        <td>5</td>
-        <td>3</td>
+        <td class="green strong">100.0 %</td>
+        <td>6</td>
         <td>2</td>
-        <td>0.6</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
@@ -342,22 +342,22 @@
       
       <tr>
         <td class="strong"><a href="#250a0372e556f0926732f928c55c04f7c4cc6e03" class="src_link" title="test/models/user_language_test.rb">test/models/user_language_test.rb</a></td>
-        <td class="red strong">66.67 %</td>
-        <td>13</td>
+        <td class="green strong">100.0 %</td>
         <td>6</td>
-        <td>4</td>
         <td>2</td>
-        <td>0.7</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#acc2d0fd801af5e74236c78527a643576c12254b" class="src_link" title="test/models/user_test.rb">test/models/user_test.rb</a></td>
-        <td class="red strong">45.45 %</td>
+        <td class="red strong">44.44 %</td>
         <td>20</td>
-        <td>11</td>
+        <td>9</td>
+        <td>4</td>
         <td>5</td>
-        <td>6</td>
-        <td>0.5</td>
+        <td>0.4</td>
       </tr>
       
     </tbody>
@@ -607,11 +607,11 @@
         <div class="source_table" id="40cf70dfa3e79cd10435c943d78fca3a871a4449">
   <div class="header">
     <h3>app/models/partnership.rb</h3>
-    <h4><span class="red">61.54 %</span> covered</h4>
+    <h4><span class="red">47.06 %</span> covered</h4>
     <div>
-      <b>13</b> relevant lines. 
+      <b>17</b> relevant lines. 
       <span class="green"><b>8</b> lines covered</span> and
-      <span class="red"><b>5</b> lines missed.</span>
+      <span class="red"><b>9</b> lines missed.</span>
     </div>
   </div>
   
@@ -687,7 +687,7 @@
         <li class="covered" data-hits="1" data-linenumber="12">
           <span class="hits">1</span>
           
-          <code class="ruby">  def self.new_matches(user)</code>
+          <code class="ruby">  def self.new_matches(current_user)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="13">
@@ -705,28 +705,76 @@
         <li class="missed" data-hits="0" data-linenumber="15">
           
           
-          <code class="ruby">    pending_matches &lt;&lt; Partnership.where(condition: &quot;pending&quot;, user_id: !user.id)</code>
+          <code class="ruby">    Partnership.all.each do |partner|</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="16">
           
           
-          <code class="ruby">    potential_matches &lt;&lt; Partnership.where(condition: &quot;potential&quot;, user_id: !user.id)</code>
+          <code class="ruby">      if partner.condition == &quot;pending&quot; &amp;&amp; partner.user_id != current_user.id</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="17">
           
           
-          <code class="ruby">    potential_matches.flatten + pending_matches.flatten</code>
+          <code class="ruby">        pending_matches &lt;&lt; partner</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="18">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">      end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="20">
+          
+          
+          <code class="ruby">    Partnership.all.each do |partner|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="21">
+          
+          
+          <code class="ruby">      if partner.condition == &quot;potential&quot; &amp;&amp; partner.user_id != current_user.id</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="22">
+          
+          
+          <code class="ruby">        pending_matches &lt;&lt; partner</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="25">
+          
+          
+          <code class="ruby">    potential_matches.flatten + pending_matches.flatten</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
           
           
           <code class="ruby">end</code>
@@ -1939,11 +1987,11 @@
         <div class="source_table" id="0a7624acbef810972a5d9060f92862faa0e1aedc">
   <div class="header">
     <h3>test/controllers/static_pages_controller_test.rb</h3>
-    <h4><span class="red">60.0 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>5</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -1968,37 +2016,19 @@
           <code class="ruby">class StaticPagesControllerTest &lt; ActionController::TestCase</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def test_home</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="5">
-          
-          
-          <code class="ruby">    get :home</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="6">
-          
-          
-          <code class="ruby">    assert_response :success</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="4">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
           
           
           <code class="ruby">end</code>
@@ -2539,11 +2569,11 @@
         <div class="source_table" id="250a0372e556f0926732f928c55c04f7c4cc6e03">
   <div class="header">
     <h3>test/models/user_language_test.rb</h3>
-    <h4><span class="red">66.67 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>6</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -2574,55 +2604,13 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def user_language</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="6">
-          
-          
-          <code class="ruby">    @user_language ||= UserLanguage.new</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="5">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def test_valid</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="10">
-          
-          
-          <code class="ruby">    assert user_language.valid?</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="12">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="never" data-hits="" data-linenumber="6">
           
           
           <code class="ruby">end</code>
@@ -2635,11 +2623,11 @@
         <div class="source_table" id="acc2d0fd801af5e74236c78527a643576c12254b">
   <div class="header">
     <h3>test/models/user_test.rb</h3>
-    <h4><span class="red">45.45 %</span> covered</h4>
+    <h4><span class="red">44.44 %</span> covered</h4>
     <div>
-      <b>11</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
-      <span class="red"><b>6</b> lines missed.</span>
+      <b>9</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>5</b> lines missed.</span>
     </div>
   </div>
   
@@ -2670,22 +2658,22 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="5">
           
-          <code class="ruby">  def user</code>
+          
+          <code class="ruby">  # def user</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="6">
           
           
-          <code class="ruby">    @user ||= User.new</code>
+          <code class="ruby">  #   @user ||= User.new</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">  # end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="8">
@@ -2703,7 +2691,7 @@
         <li class="missed" data-hits="0" data-linenumber="10">
           
           
-          <code class="ruby">    user = User.new(details: &quot;can&#39;t have more than 500 characters I guess...&quot;, nickname: &quot;butt&quot;)</code>
+          <code class="ruby">    user = User.new(details: &quot;can&#39;t have more than 500 characters I guess...&quot;, nickname: &quot;butt&quot;, partnerships: [])</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="11">
