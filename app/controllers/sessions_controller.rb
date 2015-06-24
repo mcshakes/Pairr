@@ -5,8 +5,12 @@ class SessionsController < ApplicationController
 
     if user
       session[:user_id] = user.id
-      # redirect_to matches_path
-      redirect_to user_path(user)
+      if user.languages.empty?
+        redirect_to edit_user_path(user)
+      else
+        redirect_to user_path(user)
+      end
+      user.save
     else
       redirect_to root_path
     end
@@ -17,4 +21,8 @@ class SessionsController < ApplicationController
   def auth_hash
     request.env["omniauth.auth"]
   end
+
+  # def no_languages?
+  #
+  # end
 end

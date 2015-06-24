@@ -13,4 +13,8 @@ class User < ActiveRecord::Base
     user.save
     user
   end
+
+  def self.different_users
+    User.find(:all, :conditions => ["id != ?", current_user.id])
+  end
 end

@@ -1,11 +1,12 @@
 class UsersController < ApplicationController
 
   def show
-    if additional_info_added?
-      redirect_to matches_path
-    else
-      redirect_to edit_user_path
-    end
+    # if additional_info_added?
+    #   # redirect_to matches_path
+    #   redirect_to user_path(current_user)
+    # else
+    #   redirect_to edit_user_path
+    # end
   end
 
   def edit
@@ -15,14 +16,27 @@ class UsersController < ApplicationController
 
   def update
     @user = current_user
-    @user.update(user_params)
-    redirect_to matches_path
+
+    if @user.update(user_params)
+      language_add
+      redirect_to user_path(@user)
+    else
+      render :edit
+    end
   end
 
   private
 
   def additional_info_added?
     current_user.details
+  end
+
+  def language_add
+    if params["language"].present?
+      params["language"].each do |lang|
+        @user.languages << Language.find_by(name: lang)
+      end
+    end
   end
 
   def user_params
