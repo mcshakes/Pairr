@@ -17,22 +17,7 @@ class Seed
       C: 1,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 0
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -47,22 +32,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -77,22 +47,7 @@ class Seed
       C: 1,
       CSS: 1,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 1
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -107,22 +62,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
+      Python: 0
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -137,22 +77,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 1
+      Python: 0
     },
     details: "i am so alone plz pair with me")
 
@@ -167,22 +92,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -197,22 +107,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -227,22 +122,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 1
+      Python: 0
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -257,22 +137,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 0
     },
     details: "i am so alone plz pair with me")
 
@@ -287,22 +152,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 0,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 1
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -317,22 +167,7 @@ class Seed
       C: 1,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -347,22 +182,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 0
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -377,22 +197,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 1
+      Python: 1
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -407,22 +212,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -437,22 +227,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 1
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -467,22 +242,7 @@ class Seed
       C: 1,
       CSS: 1,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 1
+      Python: 0
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -497,22 +257,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 1
+      Python: 0
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -527,22 +272,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -557,22 +287,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
+      Python: 1
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -587,22 +302,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 1
+      Python: 0
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -617,22 +317,7 @@ class Seed
       C: 1,
       CSS: 1,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
+      Python: 0
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -647,22 +332,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 0
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -677,22 +347,7 @@ class Seed
       C: 1,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -707,22 +362,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
+      Python: 0
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -737,22 +377,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -767,22 +392,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 1
+      Python: 0
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -797,22 +407,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -827,22 +422,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -857,22 +437,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
+      Python: 0
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -887,22 +452,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 0
+      Python: 0
     },
     details: "i am so alone plz pair with me")
 
@@ -917,22 +467,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
+      Python: 1
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -947,22 +482,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 1
+      Python: 0
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -977,22 +497,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -1007,22 +512,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -1037,22 +527,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -1067,22 +542,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 1
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -1097,22 +557,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
+      Python: 0
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -1127,22 +572,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 1
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -1157,22 +587,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 1
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -1187,22 +602,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 0,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 0
+      Python: 0
     },
     details: "i am so alone plz pair with me")
 
@@ -1217,22 +617,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -1247,22 +632,7 @@ class Seed
       C: 1,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -1277,22 +647,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 1
+      Python: 1
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -1307,22 +662,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 0,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 1
+      Python: 0
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -1337,22 +677,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -1367,22 +692,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 1,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
+      Python: 1
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -1397,22 +707,7 @@ class Seed
       C: 0,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -1427,22 +722,7 @@ class Seed
       C: 1,
       CSS: 1,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 1
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -1457,22 +737,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 0
+      Python: 1
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -1487,22 +752,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 1,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 1,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 1,
-      Haskell: 0,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 0
+      Python: 0
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -1517,22 +767,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 0,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 1,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 0,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 1,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 0,
-      Swift: 0
+      Python: 1
     },
     details: "would love to get your help on my new startup; it's in stealth mode so we can only use 1-character variable names, but it will be fun")
 
@@ -1547,22 +782,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 1,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 0
+      Python: 0
     },
     details: "i am so alone plz pair with me")
 
@@ -1577,22 +797,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 0,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 1,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
+      Python: 1
     },
     details: "SalesEngine was my glory days can we work on it again?")
 
@@ -1607,22 +812,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 1,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 0,
-      CSharp: 1,
-      Shell: 0,
-      R: 0,
-      CoffeeScript: 0,
-      Go: 1,
-      Perl: 1,
-      Scala: 0,
-      VimL: 1,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 1,
-      Swift: 1
+      Python: 0
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
 
@@ -1637,22 +827,7 @@ class Seed
       C: 1,
       CSS: 0,
       PHP: 1,
-      Python: 1,
-      CPlusPlus: 1,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 0,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 0,
-      Rust: 1,
-      Swift: 0
+      Python: 1
     },
     details: "i am so alone plz pair with me")
 
@@ -1667,22 +842,7 @@ class Seed
       C: 0,
       CSS: 0,
       PHP: 0,
-      Python: 0,
-      CPlusPlus: 0,
-      ObjectiveC: 1,
-      CSharp: 0,
-      Shell: 1,
-      R: 1,
-      CoffeeScript: 0,
-      Go: 0,
-      Perl: 1,
-      Scala: 0,
-      VimL: 0,
-      Clojure: 0,
-      Haskell: 1,
-      Erlang: 1,
-      Rust: 0,
-      Swift: 1
+      Python: 0
     },
     details: "Want to pair on my .vimrc? I got tired of Dvorak so i've been devising my own keyboard layout from scratch")
   end
